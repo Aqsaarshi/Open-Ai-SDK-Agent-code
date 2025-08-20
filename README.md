@@ -1,85 +1,65 @@
-📌 Assignment 1: Guardrail Hotel Assistant
+# 🧠 OpenAI Agent SDK Assignments  
 
-Objective:
-Build an AI Hotel Customer Care Assistant that:
-
-Uses input guardrails to validate queries (only hotel-related).
-
-Uses output guardrails to block political topics.
-
-Dynamically injects hotel data into the assistant’s instructions.
-
-Provides hotel information if a hotel name is detected in the query, otherwise asks the user for it.
-
-Key Features:
-
-Dynamic instructions generated from a hotels dictionary.
-
-Guards against irrelevant queries.
-
-Example hotels: Sannata, Sunshine, BeachView.
-
-📌 Assignment 2 : Custom Web Search Tool
-
-Objective:
-Build a custom web search tool using the Tavily API to fetch results and integrate it with an AI Agent.
-
-🎯 Key Features:
-
-Explores and uses Tavily API.
-
-Fetches search results programmatically.
-
-Can be integrated with an AI agent for question answering.
-
-
-## 📌 Assignment 3: Convert Static Instructions into Dynamic Instructions
-
-### 🎯 Objective
-The goal of this assignment is to **convert static agent instructions into dynamic ones** using OpenAI’s Agent SDK.  
-
-The assistant should be capable of handling **multiple hotels** by storing and retrieving hotel details dynamically, instead of relying on hardcoded/static values.
+This repository contains multiple assignments showcasing the use of **OpenAI Agent SDK** with features like **guardrails, dynamic instructions, custom tools, and customer support bots**.  
 
 ---
 
-## 🛠 Features
-- Uses **OpenAI’s Agent SDK**.  
-- Can **store and retrieve hotel details** for multiple hotels.  
-- Dynamically uses **context** to return correct hotel information based on the user’s query. 
+## 📌 Assignment 1: Guardrail Hotel Assistant  
 
+### 🎯 Objective  
+Build an AI Hotel Customer Care Assistant that:  
+- Uses **input guardrails** to validate queries (only hotel-related).  
+- Uses **output guardrails** to block political topics.  
+- Dynamically injects hotel data into the assistant’s instructions.  
+- Provides hotel information if a hotel name is detected in the query, otherwise asks the user for it.  
 
+### 🛠 Key Features  
+- Dynamic instructions generated from a `hotels` dictionary.  
+- Guards against irrelevant queries.  
+- Example hotels: **Sannata**, **Sunshine**, **BeachView**.  
 
-🛠️ Assignment: 4 Smart Customer Support Bot (SDK)
+---
 
-This program simulates a Smart Customer Support Assistant built with OpenAI Agent SDK.
-It demonstrates guardrails, tool usage, FAQs, order tracking, and human agent handoff.
+## 📌 Assignment 2: Custom Web Search Tool  
 
-🎯 Features
+### 🎯 Objective  
+Build a **custom web search tool** using the **Tavily API** to fetch results and integrate it with an AI Agent.  
 
-Guardrails
+### 🛠 Key Features  
+- Explores and uses **Tavily API**.  
+- Fetches search results programmatically.  
+- Can be integrated with an AI Agent for **question answering**.  
 
-Blocks negative or offensive queries using block_negative_input.
+---
 
-Order Status Lookup
+## 📌 Assignment 3: Convert Static Instructions into Dynamic Instructions  
 
-Simulated order database (e.g., Order IDs 1001, 1002, 1003).
+### 🎯 Objective  
+Convert **static agent instructions** into **dynamic instructions** using **OpenAI’s Agent SDK**.  
 
-Retrieves order status like Shipped, Processing, Delivered.
+The assistant should:  
+- Handle **multiple hotels** by storing and retrieving details dynamically.  
+- Use **context** to return the correct hotel information based on the user’s query.  
 
-FAQs
+### 🛠 Features  
+- Built using **OpenAI’s Agent SDK**.  
+- Supports multiple hotels with **context-driven responses**.  
+- More flexible compared to static hardcoded instructions.  
 
-Answers simple FAQs (e.g., number of hotel rooms).
+---
 
-Agent Handoff
+## 📌 Assignment 4: Smart Customer Support Bot (SDK)  
 
-Complex or unsupported queries are escalated to a Human Agent.
+### 🎯 Objective  
+Simulate a **Smart Customer Support Assistant** built with OpenAI Agent SDK.  
+It demonstrates **guardrails, tool usage, FAQs, order tracking, and human agent handoff**.  
 
-Interactive Chat Loop
+### 🛠 Features  
+- **Guardrails** → Blocks negative or offensive queries (`block_negative_input`).  
+- **Order Status Lookup** → Uses a simulated database (`1001`, `1002`, `1003`) to return statuses like *Shipped*, *Processing*, *Delivered*.  
+- **FAQs** → Answers simple questions (e.g., hotel room details).  
+- **Agent Handoff** → Escalates unsupported or complex queries to a **Human Agent**.  
+- **Interactive Chat Loop** → Users can chat with the bot in real-time.  
 
-Users can chat in real time with the bot. 
-
-
-
-
-Type exit or quit to stop the program.
+---
 
